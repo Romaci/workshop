@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="name" content="workshop web">
+	<meta name="description" content="WebWorkshop">
+	<title>Workshop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="web,utn,workshop">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/colorbox.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/carrousel.css">
+	<link rel="stylesheet" type="text/css" href="css/customCarrousel.css">
+</head>
+<body>
+	
+	<section>
+		<header >
+			<div class="container-fluid">
+				<div class="row fixed-top align-items-center claseCont" >
+				<div class=" offset-6 text-right"><h1>Workshop Daniela & Rocío</h1></div>
+			</div>
+		</div>
+					<nav class="navbar navbar-expand-md fixed-top navbar-light marginNav">
+
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#BotonCollapse" 
+					aria-controls="BotonCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="BotonCollapse">
+						<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item">
+						<a class="nav-link " href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="pag1.html">Página 1</a>
+					</li>
+					<li class="nav-item">						
+						<a class="nav-link" href="pag2.html">Página 2</a>
+					</li>
+				</ul>				
+			</div>
+		</nav>
+
+</header>
+</section >	
+	<main>
+	<div class="w3-content w3-display-container marginCarro" >
+		<div class="w3-display-container mySlides w3-animate-right w3-animate-fading ">
+			<img class="dimProporcional" src="img/perrito1.jpg"  alt="Perrito 1">
+				 	</div>
+	 	<div class="w3-display-container mySlides w3-animate-fading">
+			<img class="dimProporcional" src="img/perrito2.jpg"  alt="Perrito 2">
+				 	</div>
+	 	<div class="w3-display-container mySlides  w3-animate-right">
+			<img class="dimProporcional" src="img/perrito3.jpg"  alt="Perrito 3">
+				 	</div>
+		<button class="w3-button w3-black w3-opacity-max w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		<button class="w3-button w3-black w3-opacity-max w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+</main>
+<script src="js/carrousel.js"></script>
+<script src="js/jquery-3.3.1.js"></script> 
+
+			<!--Popper usado por BootstraP --> 
+			<script src="js/popper.min.js"></script>   
+
+
+			<!--   Javascript de bootstrap --> 
+			<script src="js/bootstrap.min.js"></script> 
+			<script src="js/jquery.colorbox.js"></script>
+
+<script> $(document).ready(function(){ $(".group2").colorbox({rel:'group2', transition:"fade"}); }); 
+</script>
+</body>
+</html>

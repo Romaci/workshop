@@ -1,0 +1,58 @@
+
+.w3-content{
+	max-width: 100%!important;
+	opacity:0.85;
+}
+
+.w3-display-bottomleft, .w3-display-bottomright  {
+	bottom: -5px;
+
+}
+
+
+.w3-animate-right{position:relative;animation:animateright 2s}@keyframes animateright{from{right:-200px;opacity:0} to{right:0;opacity:1}}
+
+/* Extra Small Devices, Phones */ 
+@media screen and (max-width:360px){
+
+     .img-responsive-carrousel{
+     		height: 180px;	
+	 }
+	 h2{
+	 	font-size: 20px
+	 }
+
+
+}
+/* Extra Small Devices, Phones */ 
+@media screen and (min-width:361px){
+
+   .img-responsive-carrousel{
+
+		height: 220px;			
+	}
+	h2{
+	 	font-size: 20px
+	 }
+	
+}
+
+
+/* Small Devices, Tablets */
+@media screen and (min-width : 768px) {
+
+    .img-responsive-carrousel{
+		height: 270px;
+		
+	}
+}
+
+/* Medium Devices, Desktops */
+@media screen and (min-width : 992px) {
+
+   .img-responsive-carrousel{
+
+		height: auto;
+	}
+
+}
